@@ -1,0 +1,13 @@
+version: "3.9"
+services:
+  nginx:
+    container_name: nodeflix-fe
+    image: nodeflix-fe
+    ports:
+      - "8080:8080"
+    network_mode: "bridge"
+    environment:
+      - VIRTUAL_HOST=nodeflix.ga
+      - VIRTUAL_PATH=/
+      - LETSENCRYPT_HOST=nodeflix.ga
+      - VIRTUAL_HOST=nodeflix.ga
