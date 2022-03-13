@@ -10,4 +10,3 @@ services:
       - VIRTUAL_HOST=nodeflix.ga
       - VIRTUAL_PATH=/
       - LETSENCRYPT_HOST=nodeflix.ga
-      - VIRTUAL_HOST=nodeflix.ga
